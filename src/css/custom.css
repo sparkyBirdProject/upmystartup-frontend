@@ -1,0 +1,95 @@
+body {
+    font-family: 'Inter';
+    font-size: 2em;
+    background-color: #181818;
+    color: white;
+  }
+footer{
+    /* position: absolute;
+    bottom: 30px;
+    width: 100%;
+    margin-left: 3em; */
+    padding: 1em;
+}
+  
+   section{
+padding: 1em;
+    margin-top: 3em;
+   }
+
+   section.hero.section.root.split.variant-primary.structure-split.size-lg.align-center.frame-none.color-brand.space-auto{
+    margin-top: 0em;
+   }
+
+  :root,
+  .theme-light {
+    --base-1: ;
+    --base-2: ;
+    --base-3: ;
+    --base-4: ;
+    --base-5: ;
+    --base-6: ;
+    --base-7: ;
+    --base-8: ;
+    --base-9: ;
+    --base-10: ;
+    --base-11: ;
+    --base-12: ;
+    --base-contrast: ;
+  
+    --brand-1: ;
+    --brand-2: ;
+    --brand-3: ;
+    --brand-4: ;
+    --brand-5: ;
+    --brand-6: ;
+    --brand-7: ;
+    --brand-8: ;
+    --brand-9: ;
+    --brand-10: ;
+    --brand-11: ;
+    --brand-12: ;
+    --brand-contrast: ;
+  }
+
+  footer.footer.root.grid.theme-dark.variant-subtle.structure-grid.size-sm.frame-panel.color-brand.space-auto {
+    margin-top: 1em;
+    width: 96%;
+    background-color: #181818;
+  }
+  a.column.root.align-start.space-auto {
+    color: #ee277f;
+}
+
+
+img.image.root.position-inset.radius-auto {
+    max-height: 11em;
+    margin-top: 1em;
+}
+
+.text {
+    max-width: 100%;
+    /* margin-top: 6em;  */
+}
+
+
+@media (max-width: 768px) {
+    img.image.root.position-inset.radius-auto {
+        max-height: 6em;
+    }
+    section.hero.section.root.split.variant-primary.structure-split.size-lg.align-center.frame-none.color-brand.space-auto {
+        margin-top: 2em;
+    }
+    a.button.root.variant-secondary.radius-auto {
+        margin-left: 1em;
+    }
+    
+}
+
+a.link.root.underline-auto {
+    color: white;
+}
+
+h4.heading.root.contrast.level-4.color-base {
+    color: #ee277f;
+}
