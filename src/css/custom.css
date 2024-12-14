@@ -13,7 +13,7 @@ footer{
 }
   
    section{
-padding: 1em;
+    padding: 1em;
     margin-top: 3em;
    }
 
@@ -63,7 +63,7 @@ padding: 1em;
 
 
 img.image.root.position-inset.radius-auto {
-    max-height: 11em;
+    max-height: 12em;
     margin-top: 1em;
 }
 
@@ -83,7 +83,9 @@ img.image.root.position-inset.radius-auto {
     a.button.root.variant-secondary.radius-auto {
         margin-left: 1em;
     }
-    
+    section.features.section.root.column.structure-column.align-start.frame-none.space-auto {
+        margin-top: 3em;
+    }   
 }
 
 a.link.root.underline-auto {
@@ -91,5 +93,36 @@ a.link.root.underline-auto {
 }
 
 h4.heading.root.contrast.level-4.color-base {
-    color: #ee277f;
+    color: #d87a9e;
+    font-size: xx-large;
+}
+
+img.icons.image.root.position-inset.radius-auto {
+    width: 4em;
+    margin: 0.3em;
+}
+section.intro.section.root.column.variant-secondary.structure-column.size-sm.align-left.frame-none.space-auto {
+    margin-top: 0em;
+}
+
+section.features.section.root.column.structure-column.align-start.frame-none.space-auto {
+    margin-top: 1.8em;
+}
+
+
+.card.root.column.structure-column.align-start.frame-panel.radius-auto.space-auto{
+    border-bottom: none;
+    border-top: none;
+    border-radius: 0;
+    border-right: none;
+    border-width: medium;
+    border-color: #ee2a7b;
+}
+
+h1.heading.root.contrast.level-1.color-base {
+    margin-top: 1em;
+}
+
+.stack.root.size-sm.align-start.space-auto {
+    margin-top: inherit;
 }
